@@ -5,14 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="437627a2-0581-4fd9-9a1c-849f4f4f522b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/basiclibrary/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/out/production/classes/linter/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/out/production/resources/gates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/out/test/classes/linter/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/out/test/resources/emptyFile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/out/test/resources/fewErrors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/out/test/resources/manyError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/out/test/resources/noError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/out/test/resources/oneError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/src/main/resources/gates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/src/test/resources/emptyFile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/src/test/resources/fewErrors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/src/test/resources/manyError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/src/test/resources/noError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linter/app/src/test/resources/oneError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/build/classes/java/main/basiclibrary/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/classes/java/main/basiclibrary/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/build/classes/java/main/basiclibrary/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/classes/java/main/basiclibrary/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/build/classes/java/test/basiclibrary/LibraryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/classes/java/test/basiclibrary/LibraryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/build/reports/tests/test/classes/basiclibrary.LibraryTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/reports/tests/test/classes/basiclibrary.LibraryTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/build/reports/tests/test/packages/basiclibrary.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/reports/tests/test/packages/basiclibrary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/build/test-results/test/TEST-basiclibrary.LibraryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/test-results/test/TEST-basiclibrary.LibraryTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/basiclibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/basiclibrary/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/basiclibrary/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/basiclibrary/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/basiclibrary/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/basiclibrary/LibraryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +64,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1yjlgfZdUhBNL1xGwZdt0ge4Drw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -36,15 +81,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Gradle.LibraryTest.containsDuplicatesTest">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="basiclibrary.Main" />
@@ -53,54 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.calculatingAveragesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;basiclibrary.LibraryTest.calculatingAveragesTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":lib:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="LibraryTest.containsDuplicatesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;basiclibrary.LibraryTest.containsDuplicatesTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":lib:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="LibraryTest.lowestAverageListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;basiclibrary.LibraryTest.lowestAverageListTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -158,21 +166,63 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="LibraryTest.tallyTester" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;basiclibrary.LibraryTest.tallyTester&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LibraryTest.weatherAnalyzerTester" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;basiclibrary.LibraryTest.weatherAnalyzerTester&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Gradle.LibraryTest.lowestAverageListTest" />
-      <item itemvalue="Gradle.LibraryTest.calculatingAveragesTest" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Gradle.LibraryTest.containsDuplicatesTest" />
       <item itemvalue="Gradle.LibraryTest.rollTestMethod" />
       <item itemvalue="Gradle.LibraryTest.someLibraryMethodReturnsTrue" />
+      <item itemvalue="Gradle.LibraryTest.weatherAnalyzerTester" />
+      <item itemvalue="Gradle.LibraryTest.tallyTester" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LibraryTest.tallyTester" />
+        <item itemvalue="Gradle.LibraryTest.weatherAnalyzerTester" />
         <item itemvalue="Gradle.LibraryTest.containsDuplicatesTest" />
         <item itemvalue="Gradle.LibraryTest.someLibraryMethodReturnsTrue" />
         <item itemvalue="Gradle.LibraryTest.rollTestMethod" />
-        <item itemvalue="Gradle.LibraryTest.calculatingAveragesTest" />
-        <item itemvalue="Gradle.LibraryTest.lowestAverageListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +235,8 @@
       <option name="presentableId" value="Default" />
       <updated>1632772994497</updated>
       <workItem from="1632772996833" duration="204000" />
+      <workItem from="1632807245940" duration="3237000" />
+      <workItem from="1632838936965" duration="9379000" />
     </task>
     <servers />
   </component>
@@ -201,5 +253,9 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

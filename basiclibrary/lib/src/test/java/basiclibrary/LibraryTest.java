@@ -5,6 +5,9 @@ package basiclibrary;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class LibraryTest {
@@ -15,27 +18,27 @@ class LibraryTest {
     }
 
     @Test
-    public void rollTestMethod() {
+    public void rollTestMethodTester() {
         Library lib = new Library();
         assertEquals(7, lib.roll(7).length, "roll methode should return an array of size 7");
     }
 
     @Test
-    public void containsDuplicatesTest() {
+    public void containsDuplicatesTester() {
         Library lib = new Library();
         int[] arr = {3, 1, 2, 5, 3};
         assertTrue(lib.containsDuplicates(arr), "containsDuplicates should return true if there is a duplicate element");
     }
 
     @Test
-    public void calculatingAveragesTest() {
+    public void calculatingAveragesTester() {
         Library lib = new Library();
         int[] arr = {3, 1, 2, 5, 3};
         assertEquals(2.8, lib.calculatingAverages(arr), "The method should return 2.5 as the average of the array");
     }
 
     @Test
-    public void lowestAverageListTest(){
+    public void lowestAverageListTester() {
         Library lib = new Library();
         int[][] weeklyMonthTemperatures = {
                 {66, 64, 58, 65, 71, 57, 60},
@@ -44,9 +47,48 @@ class LibraryTest {
                 {65, 56, 55, 52, 55, 62, 57}
         };
 
-        int[] lowest =  {55, 54, 60, 53, 59, 57, 61};
+        int[] lowest = {55, 54, 60, 53, 59, 57, 61};
 
         assertArrayEquals(lowest, lib.lowestAverageList(weeklyMonthTemperatures), "lowestAverageList should return {55, 54, 60, 53, 59, 57, 61}");
         assertEquals(7, lib.lowestAverageList(weeklyMonthTemperatures).length, "lowestAverageList should return an array of size 7");
+    }
+
+    @Test
+    public void weatherAnalyzerTester() {
+        Library lib = new Library();
+        int[][] weeklyMonthTemperatures = {
+                {66, 64, 58, 65, 71, 57, 60},
+                {57, 65, 65, 70, 72, 65, 51},
+                {55, 54, 60, 53, 59, 57, 61},
+                {65, 56, 55, 52, 55, 62, 57}
+        };
+        assertEquals("Max: 72\n" +
+                "Min: 51\n" +
+                "Never saw temperature:63\n" +
+                "Never saw temperature:67\n" +
+                "Never saw temperature:68\n" +
+                "Never saw temperature:69\n", lib.weatherAnalyzer(weeklyMonthTemperatures), "it should return \n" + "Max: 72\n" +
+                "Min: 51\n" +
+                "Never saw temperature:63\n" +
+                "Never saw temperature:67\n" +
+                "Never saw temperature:68\n" +
+                "Never saw temperature:69\n");
+    }
+
+    @Test
+    public void tallyTester(){
+        Library lib = new Library();
+        List<String> votes = new ArrayList<>();
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Shrub");
+        votes.add("Hedge");
+        votes.add("Shrub");
+        votes.add("Bush");
+        votes.add("Hedge");
+        votes.add("Bush");
+
+        assertEquals("Bush",lib.tally(votes), "It should return => Bush");
     }
 }

@@ -3,9 +3,7 @@
  */
 package basiclibrary;
 
-import org.checkerframework.checker.units.qual.A;
-
-import java.util.Random;
+import java.util.*;
 
 public class Library {
     public boolean someLibraryMethod() {
@@ -51,7 +49,7 @@ public class Library {
         for (int num : array)
             sum += num;
 
-        return (double )sum / array.length;
+        return (double) sum / array.length;
     }
 
     public int[] lowestAverageList(int[][] arr) {
@@ -68,7 +66,6 @@ public class Library {
         for (int i = 0; i < AVGs.length - 1; i++) {
             double lowest = AVGs[i];
             if (lowest > AVGs[i + 1]) {
-                lowest = AVGs[i + 1];
                 lowestIndex = i + 1;
             }
         }
@@ -77,5 +74,37 @@ public class Library {
     }
 
 
-}
+    public String weatherAnalyzer(int[][] array) {
+        int min = array[0][0], max = array[0][0];
+        Set<Integer> hashSet = new HashSet<>();
+        String report = "";
 
+        for (int[] subArray : array) {
+            for (int element : subArray) {
+                hashSet.add(element);
+                if (max < element)
+                    max = element;
+                if (min > element)
+                    min = element;
+            }
+        }
+        report += "Max: " + max + "\nMin: " + min + "\n";
+
+        for (int i = min; i <= max; i++)
+            if (!hashSet.contains(i))
+                report += "Never saw temperature:" + i + "\n";
+
+        return report;
+    }
+
+    public String tally(List<String> candidates){
+        List<Integer> votesList = new ArrayList<>();
+
+        candidates.forEach(candidate -> {
+            votesList.add(candidates.stream().filter(element -> element == candidate).toArray().length);
+        });
+
+        int max = votesList.stream().max((a, b) -> a - b).get();
+        return candidates.get(votesList.indexOf(max));
+    }
+}
