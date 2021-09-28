@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="basiclibrary.LibraryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-27T20:06:20" hostname="LTUCSTUDENT-L01" time="0.027">
+<testsuite name="basiclibrary.LibraryTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-09-28T17:11:09" hostname="LTUCSTUDENT-L010" time="0.455">
   <properties/>
-  <testcase name="containsDuplicatesTest()" classname="basiclibrary.LibraryTest" time="0.027"/>
+  <testcase name="rollTestMethodTester()" classname="basiclibrary.LibraryTest" time="0.351"/>
+  <testcase name="lowestAverageListTester()" classname="basiclibrary.LibraryTest" time="0.014"/>
+  <testcase name="calculatingAveragesTester()" classname="basiclibrary.LibraryTest" time="0.026"/>
+  <testcase name="someLibraryMethodReturnsTrue()" classname="basiclibrary.LibraryTest" time="0.014"/>
+  <testcase name="weatherAnalyzerTester()" classname="basiclibrary.LibraryTest" time="0.037"/>
+  <testcase name="tallyTester()" classname="basiclibrary.LibraryTest" time="0.004"/>
+  <testcase name="containsDuplicatesTester()" classname="basiclibrary.LibraryTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
