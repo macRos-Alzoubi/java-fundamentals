@@ -5,10 +5,10 @@
 | Directory | Methodes |
 |----------|:-------------:|
 |  basics (Lab-1) |  pluralize, flipNHeads, clock |
-|    centered  (Lab-2) | roll, containsDuplicates, contains, calculatingAverages, lowestAverageList, weatherAnalyzer, tally|
-|    centered  (Lab-3) | javaScriptLinter |
+|    basiclibrary  (Lab-2) | roll, containsDuplicates, contains, calculatingAverages, lowestAverageList, weatherAnalyzer, tally|
+|    linter  (Lab-3) | javaScriptLinter |
 
-## Lab 1
+## basics (Lab 1)
 
 - **pluralize** method:
 
@@ -22,7 +22,7 @@
 
     method clock that uses Java’s built-in LocalDateTime object to constantly print out the current time to the console, second by second. The program should run until someone manually kills it with CTRL-C or presses the “stop” button in their IDE. Each time should only be printed once. Your program should detect when the seconds increase and only print something out when the timestamp changes.
 
-## Lab 2:
+## basiclibrary (Lab 2)
 
 - **roll** method:
 
@@ -46,7 +46,7 @@
 
     accepts a List of Strings representing votes and returns one string to show what got the most votes.
 
-## Lab 3:
+## linter (Lab 3)
 
 - **javaScriptLinter** method:
 
