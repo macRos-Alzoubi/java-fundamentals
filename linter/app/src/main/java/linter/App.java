@@ -15,7 +15,7 @@ public class App {
     }
 
     public static void main(String[] args) {
-        Path filePath = Paths.get("C:\\Users\\STUDENT\\java-401\\java-fundamentals\\linter\\app\\src\\main\\resources\\gates.js");
+        Path filePath = Paths.get("linter/app/src/main/resources/gates.js");
         String errorMsg = javaScriptLinter(filePath);
         System.out.println(errorMsg);
     }
