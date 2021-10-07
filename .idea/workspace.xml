@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a2bc0b-b6d0-4296-b780-06f160cfb97a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/java-fundamentals.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/inheritance/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/inheritance/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/inheritance/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basiclibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linter/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/linter/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linter/app/out/production/classes/linter/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/linter/app/out/production/classes/linter/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linter/app/src/main/java/linter/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/linter/app/src/main/java/linter/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/lib/src/main/java/inheritance/Theater.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/inheritance/Theater.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +27,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -53,7 +37,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633288874835</updated>
-      <workItem from="1633288876953" duration="21000" />
+      <workItem from="1633288876953" duration="516000" />
+      <workItem from="1633593655335" duration="1200000" />
+      <workItem from="1633608483747" duration="798000" />
     </task>
     <servers />
   </component>
@@ -70,6 +56,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

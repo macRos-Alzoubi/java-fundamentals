@@ -22,6 +22,26 @@ public class Theater implements Reviewable {
         stars = 0;
     }
 
+    public Set<String> getMoviesList() {
+        return moviesList;
+    }
+
+    public void setMoviesList(Set<String> moviesList) {
+        this.moviesList = moviesList;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getStars() {
+        return stars;
+    }
+
+    public void setStars(int stars) {
+        this.stars = stars;
+    }
+
     public String getName() {
         return name;
     }
@@ -71,26 +91,6 @@ public class Theater implements Reviewable {
     public void addReview(Review review) {
         reviews.put("No movie name", review);
         calculateStars();
-    }
-
-    public Set<String> getMoviesList() {
-        return moviesList;
-    }
-
-    public void setMoviesList(Set<String> moviesList) {
-        this.moviesList = moviesList;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getStars() {
-        return stars;
-    }
-
-    public void setStars(int stars) {
-        this.stars = stars;
     }
 
     @Override
